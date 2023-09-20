@@ -7,7 +7,8 @@ color: #434455;
 }
 
 :root{
---okean: #404BBF;
+--okean: #404bbf;
+
 }
 
 .page-navigator-list {
@@ -26,7 +27,6 @@ color: #434455;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.02em;
-  
     color: #434455;
 }
 
@@ -58,17 +58,8 @@ color: #434455;
     line-height: 1.17;
     text-transform: uppercase;
 }
-    .logo-p link {
-        font-family: 'Raleway', sans-serif;
-        font-size: 18px;
-        font-weight: 800;
-        line-height: 21px;
-        letter-spacing: 0.03em;
-        text-decoration: none; 
-        color: #4D5AE5;
-        line-height: 1.17;
-        text-transform: uppercase;
-}
+    
+
 .logotup {
     color:  #2E2F42;
     font-family: 'Raleway', sans-serif;
@@ -99,7 +90,7 @@ color: #434455;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(-- #2E2F42)  ;
+    color: var(-- #2E2F42);
     line-height: 1.5 ;
     color: #434455;
 }
@@ -113,12 +104,12 @@ color: #434455;
 font-style: normal;
 }
 
-.contact link {
+.contact {
 font-size: 16px;
 font-weight: 400;
-line-height: 24px;
+line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455;
+color: var(--#434455);
 }
 
 .main-section{
@@ -173,6 +164,14 @@ color:  #2E2F42;
 }
 
 .item-list{
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.04em;
+line-height: 1.5;
+cursor: pointer;
+text-align: center;
+font-family: 'Roboto', sans-serif;
 color: #4D5AE5;
 background-color: linear-gradient(0deg, #F4F4FD, #F4F4FD),
 linear-gradient(0deg, #E7E9FC, #E7E9FC);
@@ -188,10 +187,15 @@ cursor: pointer;
 text-align: center;
 font-family: 'Roboto', sans-serif;
 background-color: #404BBF;
-color: #FFFFFF;
+color:#FFFFFF ;
 
+color: var(--#4d5ae5 );
+background-color: var(--#F4F4FD);
+}
 
-
+.contact:hover, 
+,contact:focus {
+ color:  #404bbf;
 }
 
 .menu-item-site:hover, 
