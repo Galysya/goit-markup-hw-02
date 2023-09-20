@@ -60,9 +60,25 @@ color: #434455;
 }
 .logotup link{
     color: #2E2F42;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-decoration: none; 
+    line-height: 1.17;
+    text-transform: uppercase;
 }
 
 .logotup-footer link{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-decoration: none; 
+    line-height: 1.17;
+    text-transform: uppercase;
 color:#F4F4FD; }
 
 
@@ -191,6 +207,9 @@ font-family: 'Roboto', sans-serif;
     list-style: none;
 }
 
+.link{
+    text-decoration: none;
+}
 .hero-title{
     font-size: 36px;
     font-weight: 700;
