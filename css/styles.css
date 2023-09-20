@@ -1,20 +1,14 @@
 
-body
-font-family: Roboto; sans-serif;
-}
-
 
 body{
-    font-family:  sans-serif;
-background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+background-color: var(#FFFFFF)  ;
 color: #434455;
-;
 }
 
 :root{
 --okean: #404BBF;
 }
-
 
 .hero-description{
     font-size: 16px;
@@ -39,13 +33,15 @@ color: #434455;
 }
 
 .logo {
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 800;
     line-height: 21px;
     letter-spacing: 0.03em;
     text-align: left;    
     color: #4D5AE5;
+    line-height: 1.17;
+    text-transform: uppercase;
 }
 
 .logotup{
@@ -88,6 +84,7 @@ color: #FFFFFF;
 }
 
 .button-service{
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -95,14 +92,17 @@ color: #FFFFFF;
     text-align: left;
     color:  #FFFFFF;
     background-color: var(#4D5AE5) ;
-    font-family: inherit;
     cursor: pointer
+    list-style: none
+    line-height: 1.5;
+    etter-spacing:0,04;
 }
 
 .last-section{
     background: #F4F4FD;
 }
 
+.second-title
 .third-title{
 font-size: 20px;
 font-weight: 500;
@@ -136,3 +136,6 @@ text-align: center;
 background: #404BBF;
 }
 
+.list{
+    list-style: none;
+}
