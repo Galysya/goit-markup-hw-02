@@ -2,7 +2,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-background-color: var(#FFFFFF)  ;
+background-color: var(--#FFFFFF) ;
 color: #434455;
 }
 
@@ -10,7 +10,16 @@ color: #434455;
 --okean: #404BBF;
 }
 
-
+.page-navigator link{
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight:  800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    font-family: 'Raleway', sans-serif;
+}
 
 .hero-description{
     font-size: 16px;
@@ -19,6 +28,10 @@ color: #434455;
     letter-spacing: 0.02em;
   
     color: #434455;
+}
+
+.adress link{
+    font-style: normal;
 }
 
 .footer-description{
@@ -34,7 +47,7 @@ color: #434455;
     background: #2E2F42;
 }
 
-.logo {
+.logo-link {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 800;
@@ -55,25 +68,22 @@ color:#F4F4FD;
     color: #2E2F42;
 }
 
-.menu-link {
+.menu-item {
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.menu-link:hover, .menu-link:focus{
+.menu-iten:hover, .menu-item:focus{
     color:#404BBF;
     ;
 }
 
-
 .link{
     text-decoration: none;
 }
-.page-navigator{
-list-style: none;
-}
+
 .list-contact{
 font-style: normal;
 }
@@ -91,14 +101,15 @@ color: #434455;
     background: #2E2F42;
 }
 
-.main-title{
+.main-title-name{
 font-size: 56px;
 font-weight: 700;
 line-height: 60px;
 letter-spacing: 0.02em;
 text-align: center;
-line-height: 1.07
+line-height: 1.07;
 color: #FFFFFF;
+;
 }
 
 .button-service {
@@ -113,8 +124,7 @@ color: #FFFFFF;
     cursor: pointer;
     list-style: none;
     line-height: 1.5;
-    letter-spacing:0,04;
-
+    letter-spacing:0,04em;
 }
 
 .last-section{
@@ -145,9 +155,7 @@ color: #4D5AE5;
 border: 1px solid #E7E9FC
 }
 
-.item-list-button:hover;{
-    
-}
+
 
 .item-list-button:focus {
     color: #404BBF ;
@@ -160,8 +168,23 @@ font-size: 16px;
 font-weight: 500;
 line-height: 24px;
 letter-spacing: 0.04em;
+line-height: 1.5;
 cursor: pointer;
 background: #404BBF;
+font-family: "Roboto", sans-serif;
+
+}
+
+.item-list-button:hover{
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+.item-list-button:focus{
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+.list-list link{
+    text-decoration: none;
 }
 
 .list{
@@ -176,5 +199,13 @@ background: #404BBF;
     text-align: center;
     text-transform: capitalize;
     color: #2E2F42;
-    ;
+    line-height: 1.11;
+}
+
+.team-name{
+    background-color: #FFFFFF;
+}
+
+.list header{
+    list-style: none;
 }
