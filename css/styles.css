@@ -59,7 +59,7 @@ color: #434455;
     text-transform: uppercase;
 }
 .logotup link{
-    color: #2E2F42;
+    color:   var(--#2E2F42);
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 800;
@@ -79,10 +79,10 @@ color: #434455;
     text-decoration: none; 
     line-height: 1.17;
     text-transform: uppercase;
-color:#F4F4FD; }
+color: var(--#F4F4FD); }
 
 
-.menu-link {
+.menu-item-site{
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -90,7 +90,7 @@ color:#F4F4FD; }
     color: #2E2F42;
     line-height: 1.5 ;
 }
-.menu-iten:hover, .menu-item:focus{
+.menu-item-site:hover, .menu-item-site:focus{
     color:#404BBF;
     ;
 }
@@ -103,14 +103,15 @@ color:#F4F4FD; }
 font-style: normal;
 }
 
-.contact{
+.contact link {
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.02em;
-
 color: #434455;
 }
+
+
 
 .main-section{
     background: #2E2F42;
