@@ -58,7 +58,7 @@ color: #434455;
     line-height: 1.17;
     text-transform: uppercase;
 }
-    .logo p link {
+    .logo-p link {
         font-family: 'Raleway', sans-serif;
         font-size: 18px;
         font-weight: 800;
@@ -99,11 +99,9 @@ color: #434455;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(-- #2E2F42)  ;
     line-height: 1.5 ;
     color: #434455;
-
-
 }
 
 
@@ -175,15 +173,7 @@ color:  #2E2F42;
 }
 
 .item-list{
-    font-family: 'Roboto', sans-serif;
-font-size: 16px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.04em;
-line-height: 1.5;
 color: #4D5AE5;
-border: 1px solid #E7E9FC;
-cursor: pointer;
 background-color: linear-gradient(0deg, #F4F4FD, #F4F4FD),
 linear-gradient(0deg, #E7E9FC, #E7E9FC);
 }
