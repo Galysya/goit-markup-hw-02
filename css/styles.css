@@ -10,6 +10,8 @@ color: #434455;
 --okean: #404BBF;
 }
 
+
+
 .hero-description{
     font-size: 16px;
     font-weight: 400;
@@ -38,26 +40,43 @@ color: #434455;
     font-weight: 800;
     line-height: 21px;
     letter-spacing: 0.03em;
-     
+    text-decoration: none; 
     color: #4D5AE5;
     line-height: 1.17;
     text-transform: uppercase;
+}
+
+.logo-footer{
+color:#F4F4FD;
+;
 }
 
 .logotup{
     color: #2E2F42;
 }
 
-.menu-item{
+.menu-link {
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
- 
     color: #2E2F42;
+}
+.menu-link:hover, .menu-link:focus{
+    color:#404BBF;
     ;
 }
 
+
+.link{
+    text-decoration: none;
+}
+.page-navigator{
+list-style: none;
+}
+.list-contact{
+font-style: normal;
+}
 
 .contact{
 font-size: 16px;
@@ -77,11 +96,12 @@ font-size: 56px;
 font-weight: 700;
 line-height: 60px;
 letter-spacing: 0.02em;
-
+text-align: center;
+line-height: 1.07
 color: #FFFFFF;
 }
 
-.button-service{
+.button-service {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -89,7 +109,7 @@ color: #FFFFFF;
     letter-spacing: 0.04em;
     text-align: left;
     color:  #FFFFFF;
-    background-color: var(#4D5AE5) ;
+    background-color:#4D5AE5 ;
     cursor: pointer;
     list-style: none;
     line-height: 1.5;
@@ -116,7 +136,6 @@ color:  #2E2F42;
 }
 
 
-
 .item-list{
 font-size: 16px;
 font-weight: 500;
@@ -139,4 +158,15 @@ background: #404BBF;
 
 .list{
     list-style: none;
+}
+
+.hero-title{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2E2F42;
+    ;
 }
