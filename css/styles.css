@@ -1,8 +1,18 @@
 
+body
+font-family: Roboto; sans-serif;
+}
+
+
 body{
-    font-family: ;
-    color: ;
-    background-color: var();
+    font-family:  sans-serif;
+background-color: #FFFFFF;
+color: #434455;
+;
+}
+
+:root{
+--okean: #404BBF;
 }
 
 
@@ -26,13 +36,6 @@ body{
 
 .footer-section{
     background: #2E2F42;
-}
-
-
-:root{}
-
-body{
-font-family: Roboto; sans-serif;
 }
 
 .logo {
@@ -83,22 +86,22 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #FFFFFF;
 }
-.betton-service{
+
+.button-service{
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.04em;
     text-align: left;
-    color: background: #FFFFFF;
-     background: #4D5AE5;
-
+    color:  #FFFFFF;
+    background-color: var(#4D5AE5) ;
+    font-family: inherit;
+    cursor: pointer
 }
 
 .last-section{
     background: #F4F4FD;
 }
-
-
 
 .third-title{
 font-size: 20px;
@@ -109,6 +112,10 @@ text-align: left;
 color:  #2E2F42;
 }
 
+.button-section{
+    cursor: pointer
+}
+
 .item-list{
 font-size: 16px;
 font-weight: 500;
@@ -116,6 +123,7 @@ line-height: 24px;
 letter-spacing: 0.04em;
 text-align: center;
 color: #4D5AE5;
+border: 1px solid #E7E9FC
 }
 
 .item-list-button {
@@ -127,21 +135,4 @@ letter-spacing: 0.04em;
 text-align: center;
 background: #404BBF;
 }
- .text {
 
- }
- 
-
- .info{
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.02em;
-text-align: left;
-color: #F4F4FD
-;
- }
- .end{
-    background: #434455;
-    font-style: normal;
- }
