@@ -30,7 +30,7 @@ color: #434455;
     color: #434455;
 }
 
-.adress link{
+.contact{
     font-style: normal;
 }
 
@@ -47,7 +47,7 @@ color: #434455;
     background: #2E2F42;
 }
 
-.logo link {
+.logo {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 800;
@@ -58,8 +58,19 @@ color: #434455;
     line-height: 1.17;
     text-transform: uppercase;
 }
-.logotup link{
-    color:   var(--#2E2F42);
+    .logo p link {
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 21px;
+        letter-spacing: 0.03em;
+        text-decoration: none; 
+        color: #4D5AE5;
+        line-height: 1.17;
+        text-transform: uppercase;
+}
+.logotup {
+    color:  #2E2F42;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 800;
@@ -70,7 +81,7 @@ color: #434455;
     text-transform: uppercase;
 }
 
-.logotup-footer link{
+.logotup-footer{
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 800;
@@ -79,21 +90,22 @@ color: #434455;
     text-decoration: none; 
     line-height: 1.17;
     text-transform: uppercase;
-color: var(--#F4F4FD); }
+    color: #f4f4fd ;
+   }
 
 
 .menu-item-site{
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
     line-height: 1.5 ;
+    color: #434455;
+
+
 }
-.menu-item-site:hover, .menu-item-site:focus{
-    color:#404BBF;
-    ;
-}
+
 
 .link{
     text-decoration: none;
@@ -111,8 +123,6 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
-
-
 .main-section{
     background: #2E2F42;
 }
@@ -128,6 +138,9 @@ color: #FFFFFF;
 ;
 }
 
+.button-service:hover, .button-service:focus{
+    background-color: #404BBF;
+}
 .button-service {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -166,17 +179,10 @@ font-size: 16px;
 font-weight: 500;
 line-height: 24px;
 letter-spacing: 0.04em;
-
 color: #4D5AE5;
-border: 1px solid #E7E9FC
+border: 1px solid #E7E9FC;
+cursor: pointer;
 }
-
-
-
-.item-list-button:focus {
-    color: #404BBF ;
-}
-
 
 .item-list-but{
 color:  #FFFFFF;
@@ -191,6 +197,10 @@ background: #404BBF;
 font-family: 'Roboto', sans-serif;
 }
 
+.menu-item-site:hover, 
+.menu-item-site:focus{
+    color:#404BBF;
+}
 
 .item-list-button:hover{
     color: #FFFFFF;
@@ -200,6 +210,12 @@ font-family: 'Roboto', sans-serif;
     color: #FFFFFF;
     background-color: #404BBF;
 }
+
+.item-list-button:focus {
+    color: #404BBF ;
+}
+
+
 .list-list link{
     text-decoration: none;
 }
