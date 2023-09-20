@@ -1,21 +1,55 @@
 
+body{
+    font-family: ;
+    color: ;
+    background-color: var();
+}
+
+
+.hero-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #434455;
+}
+
+.footer-description{
+    color: #F4F4FD;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.footer-section{
+    background: #2E2F42;
+}
+
+
+:root{}
 
 body{
-font-family: Roboto;
-color: white;
-cursor: pointer
+font-family: Roboto; sans-serif;
 }
 
 .logo {
-width: Hug (115px)
-height: Fixed (24px)
-top: 24px
-left: 156px
-color: #2E2F42;
-color: #4D5AE5;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-align: left;    
+    color: #4D5AE5;
 }
 
-.menu{
+.logotup{
+    color: #2E2F42;
+}
+
+.menu-item{
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -25,14 +59,54 @@ color: #4D5AE5;
     ;
 }
 
-.title {
-   
+.menu-link{
+
+}
+.contact{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+color: #434455;
+}
+
+.main-section{
+    background: #2E2F42;
+}
+
+.main-title{
+font-size: 56px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0.02em;
+text-align: center;
+color: #FFFFFF;
+}
+.betton-service{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: background: #FFFFFF;
+     background: #4D5AE5;
+
+}
+
+.last-section{
+    background: #F4F4FD;
+}
+
+
+
+.third-title{
 font-size: 20px;
 font-weight: 500;
 line-height: 24px;
 letter-spacing: 0.02em;
 text-align: left;
-color: background: #2E2F42;
+color:  #2E2F42;
 }
 
 .item-list{
@@ -54,17 +128,9 @@ text-align: center;
 background: #404BBF;
 }
  .text {
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.02em;
-text-align: left;
-color: #434455;
- }
 
- .end{
-    background: #434455;
  }
+ 
 
  .info{
 font-size: 16px;
@@ -74,4 +140,8 @@ letter-spacing: 0.02em;
 text-align: left;
 color: #F4F4FD
 ;
+ }
+ .end{
+    background: #434455;
+    font-style: normal;
  }
