@@ -10,7 +10,7 @@ color: #434455;
 --okean: #404BBF;
 }
 
-.page-navigator link{
+.page-navigator-list {
     list-style: none;
     text-decoration: none;
     text-transform: uppercase;
@@ -47,7 +47,7 @@ color: #434455;
     background: #2E2F42;
 }
 
-.logo-link {
+.logo link {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 800;
@@ -58,22 +58,21 @@ color: #434455;
     line-height: 1.17;
     text-transform: uppercase;
 }
-
-.logo-footer{
-color:#F4F4FD;
-;
-}
-
-.logotup{
+.logotup link{
     color: #2E2F42;
 }
 
-.menu-item {
+.logotup-footer link{
+color:#F4F4FD; }
+
+
+.menu-link {
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    line-height: 1.5 ;
 }
 .menu-iten:hover, .menu-item:focus{
     color:#404BBF;
@@ -162,7 +161,7 @@ border: 1px solid #E7E9FC
 }
 
 
-.item-list-button {
+.item-list-but{
 color:  #FFFFFF;
 font-size: 16px;
 font-weight: 500;
@@ -170,10 +169,11 @@ line-height: 24px;
 letter-spacing: 0.04em;
 line-height: 1.5;
 cursor: pointer;
+text-align: center;
 background: #404BBF;
-font-family: "Roboto", sans-serif;
-
+font-family: 'Roboto', sans-serif;
 }
+
 
 .item-list-button:hover{
     color: #FFFFFF;
