@@ -2,7 +2,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-background-color: var(--#FFFFFF) ;
+background-color: #FFFFFF;
 color: #434455;
 }
 
@@ -175,17 +175,20 @@ color:  #2E2F42;
 }
 
 .item-list{
+    font-family: 'Roboto', sans-serif;
 font-size: 16px;
 font-weight: 500;
 line-height: 24px;
 letter-spacing: 0.04em;
+line-height: 1.5;
 color: #4D5AE5;
 border: 1px solid #E7E9FC;
 cursor: pointer;
+background-color: linear-gradient(0deg, #F4F4FD, #F4F4FD),
+linear-gradient(0deg, #E7E9FC, #E7E9FC);
 }
-
-.item-list-but{
-color:  #FFFFFF;
+   
+.item-list-but {
 font-size: 16px;
 font-weight: 500;
 line-height: 24px;
@@ -193,8 +196,12 @@ letter-spacing: 0.04em;
 line-height: 1.5;
 cursor: pointer;
 text-align: center;
-background: #404BBF;
 font-family: 'Roboto', sans-serif;
+background-color: #404BBF;
+color: #FFFFFF;
+
+
+
 }
 
 .menu-item-site:hover, 
