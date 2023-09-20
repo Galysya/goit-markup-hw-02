@@ -135,7 +135,6 @@ color:  #2E2F42;
     cursor: pointer
 }
 
-
 .item-list{
 font-size: 16px;
 font-weight: 500;
@@ -146,13 +145,22 @@ color: #4D5AE5;
 border: 1px solid #E7E9FC
 }
 
+.item-list-button:hover;{
+    
+}
+
+.item-list-button:focus {
+    color: #404BBF ;
+}
+
+
 .item-list-button {
 color:  #FFFFFF;
 font-size: 16px;
 font-weight: 500;
 line-height: 24px;
 letter-spacing: 0.04em;
-
+cursor: pointer;
 background: #404BBF;
 }
 
